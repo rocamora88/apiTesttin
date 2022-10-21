@@ -194,8 +194,8 @@ public class RestAssuredTest extends BaseTest {
 		
 		System.out.println("respuestaUser fecha "+respuestaUser.getCreatedAt());
 		
-		assertThat(respuestaUser.getJob(), equalTo("leader"));
-		//assertThat(respuestaUser.getJob(), equalTo("pepe"));
+		//assertThat(respuestaUser.getJob(), equalTo("leader"));
+		assertThat(respuestaUser.getJob(), equalTo("pepe"));
 		
 	}
 	
